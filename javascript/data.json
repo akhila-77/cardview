@@ -1,0 +1,46 @@
+{
+	"details":{
+		"name":"Akhila",
+		"image":"akhila.jpg",
+		"email":"akhilajulakanti77@gmail.com",
+		"number":"+91-8172738473",
+		"address":"Guntur,andhra pradesh"
+	},
+	"careerobjective":{
+		"info1":"To become a software developer"
+	},
+	"educationalqualification":[
+		{
+			"institute":"VNITSW",
+			"degree":"B.Tech",
+			"passoutyear":"2022",
+			"percentage":"88%"
+		},
+		{
+			"institute":"sri chaitanya",
+			"degree":"Intermediate",
+			"passoutyear":"2018",
+			"percentage":"94%"
+		},
+		{
+			"institute":"sri chaitanya",
+			"degree":"SSC",
+			"passoutyear":"2016",
+			"percentage":"95%"
+		}
+	],
+	"technicalskills":[
+		{
+			"title":"programming languages",
+			"info":["c,c++,java,python,R"]
+		},
+		{
+			"title":"databases",
+			"info":["oracle,sql,mysql,TinyDb,mongoDb"]
+		},
+		{
+			"title":"operating systems",
+			"info":["unix,windows,Ubuntu"]
+		}
+	]
+}

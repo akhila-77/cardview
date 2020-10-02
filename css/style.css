@@ -1,0 +1,63 @@
+/*desktop view style*/
+body{
+	 background-color: #F75050;
+}
+#parent{
+	background-color:#F75050;
+	margin:5%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	height: 80%;
+
+}
+.child{
+	background-color: #F3CFC3;
+	margin:4%;
+	text-align: center;
+	padding:2%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px red;
+	width: 25%;
+}
+.child>img{
+	height: 40%;
+	width: 40%;
+	margin: 4%;
+}
+.child:hover{
+	box-shadow: 4px 4px 4px 4px black;
+	color: white;
+	background-color: #F75050;
+}
+/*mobile view style*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+#parent{
+	display: inline-block;
+	margin: 2%;
+}
+.child{
+	width: 95%;
+	margin: 1%;
+}
+p{
+	font-size: 25px;
+}
+}
+/*tab view styles*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+#parent{
+	flex-wrap: wrap;
+	margin: 3%;
+}
+.child>img{
+	height: 30%;
+	width: 30%;
+	margin: 2%;
+}
+.child{
+	width: 42%;
+	margin: 2%;
+}
+}
+

@@ -1,0 +1,16 @@
+{
+	"card1":{
+		"image":"img/profile.jpg",
+		"name":"Akhila Julakanti",
+		"email":"akhilajulakanti@gmail.com",
+		"mbl":"8546321476",
+		"btn":"Static"
+	},
+	"card2":{
+		"image":"img/profile.jpg",
+		"name":"Akhila Julakanti",
+		"email":"akhilajulakanti@gmail.com",
+		"mbl":"8546321476",
+		"btn":"Dynamic"
+	}
+}
