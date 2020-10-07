@@ -23,6 +23,7 @@ body{
 	width: 25%;
 	padding: 4% 0px 4% 0px;
 	text-align: center;
+	word-break:break-all;
 }
 .card1>img{
 	width:35%;
